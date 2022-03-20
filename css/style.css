@@ -1,6 +1,6 @@
 :root{
-    basecolor:#000000;
-    textcolor:white;
+    --basecolor:#000000;
+    --textcolor:white;
 }
 
 body{
