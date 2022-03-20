@@ -1,0 +1,14 @@
+:root{
+    basecolor:#000000;
+    textcolor:white;
+}
+
+body{
+    font-style: normal;
+    line-height: 1.5;
+    font-weight: 300;
+    background-color: #000000;
+}
+.container{
+    border: 1px solid white;
+}
