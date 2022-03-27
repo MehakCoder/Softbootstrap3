@@ -2,6 +2,9 @@
     --basecolor:#000000;
     --textcolor:white;
 }
+*{
+    box-sizing: border-box;
+}
 
 body{
     font-style: normal;
@@ -16,7 +19,12 @@ body{
 }
 
 
+
 /* Header */
 .Header{
-    background-image: ;
+    background-image: url(../image/background.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
 }
