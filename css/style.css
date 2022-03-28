@@ -62,10 +62,11 @@ img {
     color: white;
     display: inline-block;
     position: relative;
-    padding-top: 16px;
-    padding-left: 30px;
-    font-weight: 400;
-    font-size: 1.5;
+    font-weight: 700;
+    padding: 15px;
+}
+.Menubar li:hover{
+     color: #F28123;
 }
 
 
