@@ -85,7 +85,11 @@ img {
     color: #F28123;
 }
 /* Section-hd */
-
+#Section-hd{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
 
 
 
