@@ -59,7 +59,7 @@ img {
 
 }
 .Menubar li{
-    color: white;
+    color: #fff;
     display: inline-block;
     position: relative;
     font-weight: 700;
@@ -68,8 +68,15 @@ img {
 .Menubar li:hover{
      color: #F28123;
 }
-.icon .fa{
-    
+#icon{
+    margin-left: 70px;
+    font-weight: 700;
+}
+#icon .fa{
+    color: #fff;
+    padding: 15px;
+    transition: 0.3s all;
+    font-weight: 700;
 }
 
 
