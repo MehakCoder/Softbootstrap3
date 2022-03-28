@@ -163,8 +163,26 @@ a.borbordered-btn:hover{
 }
 .list-box{
      overflow: hidden;
-     letter-spacing: 8px;
      align-items: center;
+}
+.list-box #icon-box .fa{
+        display: block;
+        font-size: 30px;
+        margin-right: 15px;
+        color: #F28123;
+        width: 65px;
+        height: 65px;
+        text-align: center;
+        line-height: 60px;
+        border: 2px #F28123 dotted;
+        border-radius: 100px;
+}
+.list-box #content-box{
+    float: right;
+    margin-right: 100px;
+}
+#content-box h3{
+    
 }
 
 
