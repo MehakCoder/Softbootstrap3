@@ -52,6 +52,7 @@ img {
 #logo img{
     width: 150px;
 }
+/* Logo */
 .Header .Menubar{
     margin-left: 45px;
     padding: 0;
@@ -79,6 +80,7 @@ img {
     transition: 0.3s all;
     font-weight: 700;
 }
+/* Menu */
 
 
 
