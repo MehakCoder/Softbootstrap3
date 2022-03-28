@@ -17,7 +17,10 @@ body{
 .container{
     border: 1px solid black;
 }
-
+img {
+    vertical-align: middle;
+    border-style: none;
+}
 
 
 /* Header */
@@ -26,5 +29,46 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    
+    height: 100%;
+    position: relative;
+    z-index: 1;
 }
+.Header:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #07212e;
+    z-index: -1;
+    opacity: 0.6;
+}
+#logo{
+    padding: 6px 0;
+    float: left;
+}
+#logo img{
+    width: 150px;
+}
+.Header .Menubar{
+    margin-left: 45px;
+    padding: 0;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.Menubar li{
+    color: white;
+    display: inline-block;
+    position: relative;
+    padding-top: 16px;
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 1.5;
+}
+
+
+
+
+
