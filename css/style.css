@@ -32,6 +32,7 @@ img {
     height: 100%;
     position: relative;
     z-index: 1;
+    padding: 0;
 }
 .Header:after{
     position: absolute;
@@ -42,7 +43,7 @@ img {
     content: "";
     background-color: #07212e;
     z-index: -1;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 #logo{
     padding: 6px 0;
@@ -54,7 +55,7 @@ img {
 }
 /* Menubar */
 .Header .Menubar{
-    margin-left: 45px;
+    margin-left: 50px;
     padding: 0;
     list-style: none;
     font-family: 'Open Sans', sans-serif;
@@ -80,6 +81,10 @@ img {
     transition: 0.3s all;
     font-weight: 700;
 }
+#icon .fa:hover{
+    color: #F28123;
+}
+
 
 
 
