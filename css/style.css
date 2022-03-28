@@ -118,10 +118,10 @@ h1,h2,h3,h4,h5,h6{
     line-height: 1.3;
     font-family:'Poppins', sans-serif ;
 }
- #Button{
+ .button{
    vertical-align: middle;
    margin-top: 35px;
-   
+   margin-bottom: 230px;
  }
  a.Box-btn{
     font-family: 'Poppins', sans-serif;
@@ -132,6 +132,7 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 50px;
     text-decoration: none;
  }
+ 
 a.borbordered-btn{
     font-family: 'Poppins', sans-serif;
     display: inline-block;
@@ -140,6 +141,7 @@ a.borbordered-btn{
     color: #fff;
     text-decoration: none;
     padding: 7px 20px;
+    margin-left: 15px;
 }
 
 
