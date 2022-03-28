@@ -121,13 +121,17 @@ h1,h2,h3,h4,h5,h6{
  #Button{
    vertical-align: middle;
    margin-top: 35px;
+   
  }
- #Button .Box-btn{
+  a.Box-btn{
     font-family: 'Poppins', sans-serif;
     display: inline-block;
     background-color: #F28123;
     color: #fff;
     padding: 10px 20px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
  }
 
 
