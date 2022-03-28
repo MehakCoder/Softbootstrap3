@@ -47,6 +47,7 @@ img {
 #logo{
     padding: 6px 0;
     float: left;
+    position: absolute;
 }
 #logo img{
     width: 150px;
@@ -69,7 +70,7 @@ img {
      color: #F28123;
 }
 #icon{
-    margin-left: 70px;
+    margin-left: 50%;
     font-weight: 700;
 }
 #icon .fa{
