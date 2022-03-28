@@ -61,7 +61,7 @@ h1,h2,h3,h4,h5,h6{
 }
 /* Menubar */
 .Header .Menubar{
-    margin-left: 50px;
+    margin-left: 95px;
     padding: 0;
     list-style: none;
     font-family: 'Open Sans', sans-serif;
@@ -104,8 +104,8 @@ h1,h2,h3,h4,h5,h6{
     vertical-align: middle;
     text-align: center;
     font-weight: 700;
-    margin-top: 90px;
-    margin-left: 40px;
+    margin-top: 200px;
+    margin-left: 83px;
 }
 #Function p{
    color: #F28123;
@@ -133,6 +133,9 @@ h1,h2,h3,h4,h5,h6{
     padding: 10px 20px;
     border-radius: 50px;
     text-decoration: none;
+ }
+ a.Box-btn:hover{
+     
  }
  
 a.borbordered-btn{
