@@ -155,8 +155,17 @@ a.borbordered-btn{
 a.borbordered-btn:hover{
     background-color: #F28123;
 }
-
-
+/* Lists */
+.list{
+    background-color: #f5f5f5;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.list-box{
+     overflow: hidden;
+     letter-spacing: 8px;
+     align-items: center;
+}
 
 
 
