@@ -30,11 +30,11 @@ h1,h2,h3,h4,h5,h6{
 p {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 16px;
     letter-spacing: 0.1px;
     line-height: 1.8;
     color: #051922;
-    margin: 0 0 1.25rem 0;
+    margin: 0 0 17px 0;
 }
 
 /* Header */
@@ -166,7 +166,7 @@ a.borbordered-btn:hover{
 /* Lists */
 .list{
     background-color: #f5f5f5;
-    padding: 80px 0 80px 0; 
+    padding: 80px 0 80px 0;
 }
 .list-box #icon-box .fa{
         font-size: 30px;
@@ -194,6 +194,7 @@ a.borbordered-btn:hover{
     margin-bottom: 0px;
     opacity: 0.75;
 }
+
 
 
 
