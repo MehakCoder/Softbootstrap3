@@ -205,6 +205,7 @@ a.borbordered-btn:hover{
 .section-title{
     text-align: center;
     margin-bottom: 80px;
+    margin-left: 350px;
 }
 .section-title h3{
     font-size: 40px;
@@ -214,9 +215,9 @@ a.borbordered-btn:hover{
 .section-title h3:after{
     position: absolute;
     content: '';
-    top: 0;
-    bottom: 0;
+    bottom: 4px;
     left: 0;
+    right: 15px;
     width: 50px;
     height: 2px;
     background-color: #F28123;
