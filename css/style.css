@@ -211,6 +211,7 @@ a.borbordered-btn:hover{
     font-size: 40px;
     position: relative;
     padding-bottom: 15px;
+    margin-left: 95px;
 }
 .section-title h3:after{
     position: absolute;
