@@ -14,9 +14,9 @@ body{
     font-weight: 300;
     background-color: white
 }
-.container{
+/* .container{
     border: 1px solid black;
-}
+} */
 img {
     vertical-align: middle;
     border-style: none;
@@ -210,6 +210,20 @@ a.borbordered-btn:hover{
     font-size: 40px;
     position: relative;
     padding-bottom: 15px;
+}
+.section-title h3:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #F28123;
+    margin: 0 auto;
+}
+.section-title span{
+    color: #F28123;
 }
 
 
