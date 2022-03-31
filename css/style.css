@@ -236,6 +236,15 @@ a.borbordered-btn:hover{
     margin-top: 10px;
     line-height: 1.8;
 }
+.Product-image{
+    padding: 30px;
+    padding-bottom: 0;
+}
+.Product-image img{
+    width: 90%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
 
 
 
