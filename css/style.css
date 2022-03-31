@@ -264,16 +264,23 @@ p.price span{
     font-weight: 400;
 }
 .btn{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     display: inline-block;
     background-color: #F28123;
     color: #fff;
     padding: 10px 20px;
+    font-size: 400;
+}
+.btn .fa{
+    margin-left: 5px;
 }
 a.btn{
     border-radius: 50px;
 }
-
+.btn:hover{
+    background-color: #07212e;
+    color: #F28123;
+}
 
 
 
