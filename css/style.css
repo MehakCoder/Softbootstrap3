@@ -201,6 +201,9 @@ a.borbordered-btn:hover{
 .product{
     margin-top: 150px;
     margin-bottom: 150px;
+    box-shadow: 0 0 20px #e4e4e4;
+    padding-bottom: 50px;
+    border-radius: 5px;
 }
 .section-title{
     text-align: center;
