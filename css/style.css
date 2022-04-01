@@ -244,6 +244,9 @@ a.borbordered-btn:hover{
     padding-bottom: 50px;
     border-radius: 5px;
 }
+.Product-image:hover{
+    box-shadow: none;
+}
 .Product-image img{
     width: 90%;
     border-radius: 5px;
