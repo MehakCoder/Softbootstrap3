@@ -297,7 +297,7 @@ a.btn{
 .price-tag{
     position: absolute;
     left: 15%;
-    margin: auto;
+    top: -30px;
     width: 110px;
     height: 110px;
     border-radius: 50%;
@@ -329,6 +329,11 @@ a.btn{
     line-height: 0;
     margin-bottom: 0;
 }
+.Image-column{
+max-width: 100px;
+    
+}
+
 
 
 
