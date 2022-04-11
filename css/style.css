@@ -36,6 +36,24 @@ p {
     color: #051922;
     margin: 0 0 17px 0;
 }
+.btn{
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    background-color: #F28123;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 400;
+}
+.btn .fa{
+    margin-left: 5px;
+}
+a.btn{
+    border-radius: 50px;
+}
+.btn:hover{
+    background-color: #07212e;
+    color: #F28123;
+}
 
 
 /* Header */
@@ -134,21 +152,6 @@ p {
    vertical-align: middle;
    margin-top: 35px;
    margin-bottom: 200px;
-  
- }
- a.Box-btn{
-    font-family: 'Open Sans', sans-serif;
-    display: inline-block;
-    font-weight: 400;
-    background-color: #F28123;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 50px;
-    text-decoration: none;
- }
- a.Box-btn:hover{
-     color: #F28123;
-     background-color: #07212e;
  }
 a.borbordered-btn{
     font-family:  'Open Sans', sans-serif;
@@ -270,24 +273,7 @@ p.price span{
     font-size: 15px;
     font-weight: 400;
 }
-.btn{
-    font-family: 'Open Sans', sans-serif;
-    display: inline-block;
-    background-color: #F28123;
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 400;
-}
-.btn .fa{
-    margin-left: 5px;
-}
-a.btn{
-    border-radius: 50px;
-}
-.btn:hover{
-    background-color: #07212e;
-    color: #F28123;
-}
+
 /*Cart-Banner */
 .cart-banner{
       background-color: #f5f5f5;
