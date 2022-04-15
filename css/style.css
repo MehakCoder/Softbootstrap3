@@ -17,10 +17,7 @@ body{
 .container{
     border: 1px solid black;
 }
-img {
-    vertical-align: middle;
-    border-style: none;
-}
+
 h1,h2,h3,h4,h5,h6{
     font-family:'Poppins', sans-serif ;
     font-weight: 700;
@@ -282,27 +279,21 @@ p.price span{
     position: relative;
     margin-top: 40px;
 }  
-.cart-banner .Image-column .price-box {
-    position: absolute;
-    left: 15%;
-    top: -30px;
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
-    border: 1px solid #fff;
-    background-color: rgba(242, 129, 35, 0.75);
+.Image-column #Pic img{
+    max-width: 100%;
 }
-.cart-banner .Image-column .price-box #inner-price {
+
+.cart-banner .Image-column #inner-price {
     position: relative;
     width: 94px;
     height: 94px;
-    margin: 0 auto;
-    margin-top: 8px;
+    margin-left: 35px;
     text-align: center;
     border-radius: 50%;
     background-color: #F28123;
+    box-shadow: 0px 0px 0 11px rgb(242 129 35 / 75%);
 }
-.cart-banner .Image-column .price-box #inner-price .price {
+.cart-banner .Image-column  #inner-price .price {
     color: #051922;
     padding-top: 27px;
     position: relative;
@@ -310,11 +301,7 @@ p.price span{
     line-height: 18px;
     font-weight: 400;
 }
-#inner-price .price p{
-    color: #051922;
-    font-size: 24px;
-    font-weight: bolder;
-}
+
 
 
 
