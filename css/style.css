@@ -24,13 +24,22 @@ h1,h2,h3,h4,h5,h6{
     margin: 0 0 16px 0;
     color: #051922;
 }
+h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 2.25rem;
+}
+
 p {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #051922;
-    margin: 0 0 17px 0;
+    line-height: 1.8em;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
+
 span{
     color: #F28123;
 }
@@ -300,7 +309,35 @@ p.price span{
     line-height: 18px;
     font-weight: 400;
 }
+/* image column : the end */
+.content-column{
+    position: relative;
+    padding-top: 40px;
+}
+.content-column h4{
+    font-family:  'Open Sans', sans-serif; 
+     font-weight: 500;
+     text-transform: uppercase;
+     line-height: 1.75rem;
+}
 
+.counter-time{
+    position: relative;
+    margin-bottom: 25px;
+     border: 2px solid #F28123;
+     display: inline-block;
+     line-height: 1.5;
+     text-align: center;
+     font-size: 13px;
+     padding: 8px 20px 14px;
+}
+.counter-time .count{
+    position: relative;
+    font-size: 30px;
+    line-height: 1.4;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
 
 
 
