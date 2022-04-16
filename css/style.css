@@ -349,11 +349,12 @@ p.price span{
 }
 .testimonail .review{
     width: 920px;
+    text-align: center;
+    margin-left: 10px;
 }
 .testimonail .client-Image img{
      border-radius: 50%;
      width: 90px;
-     margin-left: 46%;
 }
 .testimonail .client h3{
          text-align: center;
