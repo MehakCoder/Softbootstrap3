@@ -350,7 +350,7 @@ p.price span{
 .testimonail .review{
     width: 920px;
     text-align: center;
-    margin-left: 120px;
+    margin-left: 135px;
 }
 .testimonail .client-Image img{
      border-radius: 50%;
@@ -378,7 +378,9 @@ p.price span{
            color: #999999;             
 }
 .testimonail .quto-icon{
-    
+        margin-top: 20px;
+        font-size: 25px;
+        color: #999999;
 }
 
 
