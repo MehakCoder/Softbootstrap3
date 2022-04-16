@@ -388,7 +388,8 @@ p.price span{
 }
 .abt-bg{
     background-image: url(../image/abt.jpg);
-    
+    height: 100%;
+    width: 100%;
 }
 
 
