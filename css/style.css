@@ -321,7 +321,9 @@ p.price span{
      text-transform: uppercase;
      line-height: 1.75rem;
 }
-
+ .btn-org .btn{
+    margin-top: 16px;
+ } 
 .counter-time{
     position: relative;
     margin-bottom: 25px;
@@ -339,6 +341,7 @@ p.price span{
     font-weight: 700;
     letter-spacing: 1px;
 }
+
 
 
 
