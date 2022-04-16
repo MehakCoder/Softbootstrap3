@@ -347,10 +347,13 @@ p.price span{
     margin-top: 150px;
     margin-bottom: 150px;
 }
+.testimonail .review{
+    width: 420px;
+}
 .testimonail .client-Image img{
      border-radius: 50%;
      width: 90px;
-     margin-left: 50%;
+     /* margin-left: 50%; */
 }
 .testimonail .client {
       
