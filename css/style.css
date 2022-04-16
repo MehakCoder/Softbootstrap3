@@ -129,6 +129,7 @@ a.btn{
     font-weight: 400;
     font-size: 16px;
 }
+
 .Section-hd #Function{
     height: auto;
     vertical-align: middle;
@@ -219,7 +220,7 @@ a.borbordered-btn:hover{
     margin-left: 350px;
 }
 .section-title h3{
-    font-size: 40px;
+    margin-top: 5px;
     position: relative;
     padding-bottom: 15px;
     margin-left: 95px;
@@ -337,6 +338,9 @@ p.price span{
     line-height: 1.4;
     font-weight: 700;
     letter-spacing: 1px;
+}
+.counter-time :last-child{
+    margin-left: 15px;
 }
 
 
