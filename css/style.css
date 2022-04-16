@@ -350,7 +350,7 @@ p.price span{
 .testimonail .review{
     width: 920px;
     text-align: center;
-    margin-left: 10px;
+    margin-left: 120px;
 }
 .testimonail .client-Image img{
      border-radius: 50%;
@@ -375,9 +375,7 @@ p.price span{
            font-style: italic;
            width: 700px; 
            margin: 0 auto;
-           line-height: 1.8;
-           color: #999999;
-           margin-top: 20px;               
+           color: #999999;             
 }
 
 
