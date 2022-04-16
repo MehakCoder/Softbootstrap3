@@ -347,6 +347,9 @@ p.price span{
     margin-top: 150px;
     margin-bottom: 150px;
 }
+.testimonail .review{
+    width: 920px;
+}
 .testimonail .client-Image img{
      border-radius: 50%;
      width: 90px;
@@ -365,6 +368,15 @@ p.price span{
       color: #051922;
       font-weight: 600;
       opacity: 0.5; 
+}
+.testimonail .client p{
+           font-size: 17px;
+           font-style: italic;
+           width: 700px; 
+           margin: 0 auto;
+           line-height: 1.8;
+           color: #999999;
+           margin-top: 20px;               
 }
 
 
