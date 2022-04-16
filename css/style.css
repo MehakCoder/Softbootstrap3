@@ -349,7 +349,8 @@ p.price span{
 }
 .testimonail .client-Image img{
      border-radius: 50%;
-     width: 100px;
+     width: 90px;
+     margin-left: 50%;
 }
 
 
