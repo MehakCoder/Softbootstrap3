@@ -302,13 +302,14 @@ p.price span{
     background-color: #F28123;
     box-shadow: 0px 0px 0 11px rgb(242 129 35 / 75%);
 }
-.cart-banner .Image-column  #inner-price .price {
-    color: #051922;
+.cart-banner .Image-column  #inner-price .Price {
     padding-top: 27px;
     position: relative;
-    display: inline-block;
     line-height: 18px;
-    font-weight: 400;
+}
+.Price strong{
+    color: #051922;
+    font-size: 24px;
 }
 /* image column : the end */
 .content-column{
