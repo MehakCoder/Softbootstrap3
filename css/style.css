@@ -392,8 +392,6 @@ p.price span{
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     position: relative;
-    z-index: 1;
-    overflow: hidden;
 }
 .abt-bg a .fa{
     position: absolute;
