@@ -394,7 +394,10 @@ p.price span{
     position: relative;
     overflow: hidden;
 }
-
+.abt-text .fa:hover{
+     background-color: #051922;
+        color: #F28123;
+}
 .abt-bg:after {
     position: absolute;
     left: 0;
@@ -402,7 +405,6 @@ p.price span{
     width: 100%;
     height: 100%;
     content: "";
-    background-color: #051922;
     opacity: 0.3;
 }
 .abt-bg a .fa{
