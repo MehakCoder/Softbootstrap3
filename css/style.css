@@ -385,7 +385,7 @@ p.price span{
 /* Testimonail : the end */
 .abt-bg{
     background-image: url(../image/abt.jpg);
-    height: 450px;
+    height: 500px;
     width: 550px;
     background-size: cover;
     background-position: center;
@@ -423,7 +423,7 @@ p.price span{
 }
 /* vedio bg : the end */
 .abt-text{
-    margin-top: 25px;
+    margin-top: 30px;
 }
 .abt-text p.top{
     opacity: 0.8;
