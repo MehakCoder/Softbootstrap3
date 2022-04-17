@@ -421,8 +421,10 @@ p.price span{
     margin-left: -45px;
 }
 /* vedio bg : the end */
-.abt-text{
-    
+.abt-text p{
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 10px;
 }
 
 
