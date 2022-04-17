@@ -392,6 +392,7 @@ p.price span{
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     position: relative;
+    overflow: hidden;
 }
 .abt-bg:after {
     position: absolute;
