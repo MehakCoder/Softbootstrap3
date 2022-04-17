@@ -400,17 +400,13 @@ p.price span{
     background-color: #F28123;
     color: #051922;
     width: 90px;
-    height: 90px;
     text-align: center;
     line-height: 92px;
     border-radius: 50%;
     font-size: 20px;
     padding-left: 5px;
-    display: block;
-    z-index: 2;
     top: 50%;
     margin-top: -45px;
-    -webkit-box-shadow: 0 0 20px #adadad;
     box-shadow: 0 0 20px #adadad;
     left: 50%;
     margin-left: -45px;
