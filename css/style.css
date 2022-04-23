@@ -437,6 +437,7 @@ p.price span{
 }
 /* ADVERT :THE END */
 .shop-banner{
+    background-image: url(../image/avatar2.png);
     position: relative;
     background-color: #f5f5f5;
     background-size: cover;
