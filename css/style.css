@@ -49,7 +49,6 @@ p {
     background-color: #F28123;
     color: #fff;
     padding: 10px 20px;
-    font-size: 400;
 }
 .btn .fa{
     margin-left: 5px;
@@ -462,7 +461,10 @@ p.price span{
    font-weight: 700;
    color: #F28123; 
 }
-
+.shop-banner .btn{
+    font-weight: 500;
+    font-size: medium;
+}
 
 
 
