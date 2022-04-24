@@ -445,8 +445,22 @@ p.price span{
     line-height: 1.2em;
     margin-bottom: 0px;
 }
+.shop-banner .sale-percent span{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    position: relative;
+    font-size: 24px;
+    line-height: 1.1em;
+    color: #051922;
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+}
 .shop-banner .sale-percent{
-    
+   position: relative;
+   font-size:60px;
+   font-weight: 700;
+   color: #F28123; 
 }
 
 
