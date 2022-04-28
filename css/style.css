@@ -496,6 +496,14 @@ p.price span{
 	position: relative;
 	overflow: hidden; 
 }
+.News-blog p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    line-height: 1.8;
+    color: #555;
+}
 .fa-angle-right{
     text-decoration: none;
 }
@@ -537,6 +545,7 @@ a.read-more-btn:hover{
     text-decoration: none;
     color:#051922 ;
 }
+
 
 
 
