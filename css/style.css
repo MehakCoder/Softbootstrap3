@@ -480,6 +480,10 @@ p.price span{
     box-shadow: 0 0 20px #dddddd;
     transition: 0.3s;
 }
+.News:hover{
+  box-shadow: none;
+  opacity: 0.8;
+}
 .News-img img{
     width: 100%;
     border-top-right-radius: 5px;
@@ -508,18 +512,22 @@ p.price span{
     text-decoration: none;
     margin: 0 0 1.25rem 0;
 }
-.News-blog a i.fa{
-    color: #555;
+a.read-more-btn i.fa{
+    font-weight: 800;
     margin: 0 2px;
 }
 a.read-more-btn{
     display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 15px;
     color: #051922;
     transition: 0.3s;
     font-weight: 700;
 }
+a.read-more-btn:hover{
+    color: #F28123;
+}
+
 .News-blog h3{
     font-size: 20px;
     line-height: 1.25em;
