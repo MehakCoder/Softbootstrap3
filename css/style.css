@@ -550,7 +550,19 @@ a.read-more-btn:hover{
     color:#051922 ;
 }
 /* News : the end */
-
+.logo-slider{
+    background-color:#f5f5f5;
+    padding: 50px 0;
+}
+.logo{
+    width: 100%;
+    display: block;
+    margin-right: 30px;
+    transform-style: preserve-3d ;
+}
+.logo:hover{
+    opacity: 0.8;  
+}
 
 
 
