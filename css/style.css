@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 h1,
@@ -755,4 +755,22 @@ h2.widget:after {
     color: #F28123;
     font-weight: 700;
 }
-
+.social-icons{
+    text-align: right;
+}
+.social-icons ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.social-icons ul li {
+    display: inline-block;
+}
+.social-icons ul li a {
+    font-size: 18.5px;
+    color: #fff;
+    opacity: 0.7;
+    padding: 16px 10px;
+    display: block;
+}
+/* social-icons:the end */
