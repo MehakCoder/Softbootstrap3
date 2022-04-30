@@ -739,6 +739,20 @@ h2.widget:after {
     border-bottom-right-radius: 3px;
     cursor: pointer;
 }
-
-
+/* footer-box:the end */
+.copyright {
+    background-color: #051922;
+    border-top: 1px solid #232a35;
+}
+.copyright p {
+    margin: 0;
+    color: #fff;
+    opacity: 0.7;
+    padding: 16px 0;
+    font-size: 15px;
+}
+.copyright a {
+    color: #F28123;
+    font-weight: 700;
+}
 
