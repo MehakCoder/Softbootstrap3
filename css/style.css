@@ -700,4 +700,45 @@ h2.widget:after {
     margin-bottom: 10px;
     line-height: 1.8;
 }
+.footer-box.pages ul li {
+    position: relative;
+    padding-left: 20px;
+}
+.footer-box.pages ul li a{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400; 
+    font-size: 1rem;
+    text-decoration: none;
+    margin-left: 10px;
+    color: #fff;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.footer-box.pages ul li .fa{
+    font-size: 14px;
+    color: #F28123;
+}
+.footer-box.pages ul li :hover{
+    color: #F28123;
+}
+.footer-box form input[type=email]{
+    border: none;
+    background-color: #012738;
+    width: 78%;
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.footer-box form button{
+    width: 20%;
+    border: none;
+    background-color: #012738;
+    color: #F28123;
+    padding: 14px 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+}
+
+
 
