@@ -684,14 +684,12 @@ h2.widget:after {
     background-color: #F28123;
     content: "";
 }
-
 .footer-box p {
     color: #fff;
     opacity: 0.7;
     line-height: 1.8;
     font-size: 15px;
 }
-
 .footer-box ul {
     margin: 0;
     padding: 0;
