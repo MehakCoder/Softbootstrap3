@@ -563,8 +563,15 @@ a.read-more-btn:hover{
 .client-logo:hover{
     opacity: 0.8;  
 }
-
-
+/* logo:the end */
+.Footer{
+    background-color: #051922;
+    color: #fff;
+    padding: 150px 0;
+}
+.widget{
+    color: #fff;
+}
 
 
 
