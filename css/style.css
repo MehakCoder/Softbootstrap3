@@ -238,6 +238,7 @@ a.borbordered-btn:hover {
     padding-bottom: 80px;
 }
 .list-box{
+    display: flex;
     overflow: hidden;
     letter-spacing: 0.5px;
     align-items: center;
