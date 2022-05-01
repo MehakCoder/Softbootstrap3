@@ -243,7 +243,6 @@ a.borbordered-btn:hover {
     align-items: center;
 }
 .list-box .list-icon i {
-    display: block;
     font-size: 24px;
     margin-right: 15px;
     color: #F28123;
@@ -255,14 +254,14 @@ a.borbordered-btn:hover {
     border-radius: 999px;
 }
 .list-box .content h3 {
-    display: block;
     line-height: 22px;
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 4px;
 }
 .list-box .content p {
     margin-bottom: 0px;
     opacity: 0.75;
+    font-size: 15px;
 }
 p:last-child {
     margin: 0;
