@@ -325,12 +325,10 @@ p.price span {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
 .cart-banner .Image-column {
     position: relative;
     margin-top: 40px;
 }
-
 .Image-column #Pic img {
     max-width: 100%;
 }
@@ -360,8 +358,8 @@ p.price span {
     position: relative;
     display: inline-block;
     line-height: 18px;
-    font-weight: 400;}
-
+    font-weight: 400;
+}
 .Price strong {
     color: #051922;
     font-size: 24px;
@@ -379,7 +377,13 @@ p.price span {
     text-transform: uppercase;
     line-height: 1.75rem;
 }
-
+.content-column .content-tag .text{
+    position: relative;
+    font-weight: 400;
+    line-height: 1.8em;
+    margin-top: 25px;
+   margin-bottom: 25px;
+}
 .btn-org .btn {
     margin-top: 16px;
 }
