@@ -334,7 +334,7 @@ p.price span {
 .Image-column #Pic img {
     max-width: 100%;
 }
-.cart-banner .image-column #Price-box {
+.cart-banner .Image-column #Price-box {
     position: absolute;
     left: 15%;
     top: -30px;
@@ -344,7 +344,7 @@ p.price span {
     border: 1px solid #fff;
     background-color: rgba(242, 129, 35, 0.75);
 }
-.cart-banner .image-column #Price-box .inner-price {
+.cart-banner .Image-column #Price-box .inner-price {
     position: relative;
     width: 94px;
     height: 94px;
@@ -354,7 +354,7 @@ p.price span {
     border-radius: 50%;
     background-color: #F28123;
 }
-.cart-banner .image-column #Price-box .inner-price .Price {
+.cart-banner .Image-column #Price-box .inner-price .Price {
     color: #051922;
     padding-top: 27px;
     position: relative;
