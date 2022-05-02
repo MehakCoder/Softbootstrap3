@@ -339,12 +339,11 @@ p.price span {
     position: relative;
     width: 94px;
     height: 94px;
-    margin-left: 8px;
+    margin-left: 45px;
     margin-top: 8px;
     text-align: center;
     border-radius: 50%;
     background-color: #F28123;
-    box-shadow: 0px 0px 0 11px rgb(242 129 35 / 75%);
 }
 
 .cart-banner .Image-column #inner-price .Price {
