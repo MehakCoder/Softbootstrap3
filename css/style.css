@@ -142,18 +142,20 @@ a.btn {
     padding: 0;
     list-style: none;
     font-family: 'Open Sans', sans-serif;
-
+}
+.Menubar li a{
+    text-decoration: none;
+    color: #fff;
 }
 
 .Menubar li {
-    color: #fff;
     display: inline-block;
     position: relative;
     font-weight: 700;
     padding: 15px;
 }
 
-.Menubar li:hover {
+.Menubar li a:hover {
     color: #F28123;
 }
 
