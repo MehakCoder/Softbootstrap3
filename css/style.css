@@ -125,7 +125,10 @@ a.btn {
     z-index: -1;
     opacity: 0.5;
 }
-
+.Top-header{
+   text-align: center;
+   background: #051922; 
+}
 #logo {
     padding: 6px 0;
     float: left;
@@ -783,3 +786,16 @@ h2.widget:after {
     display: block;
 }
 /* social-icons:the end */
+
+
+/* ABout us :New page */
+.breadcrumb-section {
+    padding: 150px 0;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+    padding-top: 200px;
+}
+
