@@ -810,4 +810,9 @@ h2.widget:after {
     margin: 0;
     margin-top: 20px;
 }
+/* feature */
+.Feature-bg {
+    position: relative;
+    margin: 150px 0;
+}
 
