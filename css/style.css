@@ -815,4 +815,45 @@ h2.widget:after {
     position: relative;
     margin: 150px 0;
 }
+.Feature-bg::after{
+    background-image: url(../image/abt.jpg);
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    content: "";
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 5px;
+    box-shadow: 0 0 20px #cacaca;
+    border-bottom-left-radius: 5px;
+}
+
+.Feature-text h3{
+    margin-top: 5px;
+    padding-bottom: 16px;
+    font-size: 48px;
+    line-height: 3.25rem;
+}
+.list-box{
+    overflow: hidden;
+    letter-spacing: 0.5px;
+    display: flex;
+    margin-bottom: 48px;
+}
+.list-box .list-icon{
+    display: block;
+}
+.list-box .content h3{
+    display: block;
+    font-size: 18px;
+}
+/* Our Team */
+.Team-iteam{
+    position: relative;
+}
+.Team-image{
+    
+}
 
