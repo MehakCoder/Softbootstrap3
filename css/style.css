@@ -850,10 +850,70 @@ h2.widget:after {
     font-size: 18px;
 }
 /* Our Team */
+.Team{
+    margin-top: 150px;
+}
 .Team-iteam{
     position: relative;
 }
-.Team-image{
-    
+.Team-image-1{
+    background-image: url(../image/team-1.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    background-color: #ddd;
+}
+.Team-image-2{
+    background-image: url(../image/team-2.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    background-color: #ddd;
+}
+.Team-image-3{
+    background-image: url(../image/team-3.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    background-color: #ddd;
+}
+.Team-iteam h4{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.Team-iteam h4 span{
+    font-size: 70%;
+    display: block;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+ul.social-link {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+ul.social-link li {
+    display: inline-block;
+}
+ul.social-link li a{
+    color: #fff;
+    background-color: #F28123;
+    width: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    margin: 5px;
 }
 
