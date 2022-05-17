@@ -161,7 +161,33 @@ a.btn {
 .Menubar li a:hover {
     color: #F28123;
 }
-
+ul.sub-menu{
+    position: absolute;
+    background-color: #fff;
+    width: 220px;
+    padding: 15px 15px;
+    margin: 0;
+    top: 50px;
+    border-radius: 3px;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 0 20px #555555;
+}
+ul.sub-menu li {
+    display: block;
+    text-align: left;
+}
+.sub-menu li a {
+    color: #555;
+    font-weight: 600;
+    padding: 7px 10px;
+    font-size: 13px;
+  }
+.Menubar > li:hover ul {
+    opacity: 1;
+    visibility: visible;
+}
 #icon {
     margin-left: 50%;
     font-weight: 700;
