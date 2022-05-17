@@ -163,27 +163,36 @@ a.btn {
 }
 ul.sub-menu{
     position: absolute;
-    background-color: #fff;
-    width: 220px;
-    padding: 15px 15px;
-    margin: 0;
-    top: 50px;
-    border-radius: 3px;
-    transition: 0.3s;
-    opacity: 0;
-    visibility: hidden;
-    box-shadow: 0 0 20px #555555;
+  background-color: #fff;
+  width: 220px;
+  padding: 15px 15px;
+  margin: 0;
+  left: 0;
+  top: 50px;
+  border-radius: 3px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-box-shadow: 0 0 20px #555555;
+  box-shadow: 0 0 20px #555555;
 }
+.Menubar ul li.current-list-item > a {
+    color: #F28123;
+  }
 ul.sub-menu li {
     display: block;
     text-align: left;
 }
-.sub-menu li a {
+ul.sub-menu li a {
     color: #555;
     font-weight: 600;
-    padding: 7px 10px;
+    padding: 8px;
+    display: block;
     font-size: 13px;
   }
+
 .Menubar > li:hover ul {
     opacity: 1;
     visibility: visible;
@@ -950,7 +959,10 @@ ul.social-link li a{
     display: table;
     width: 100%;
 }
+
 .Error{
+    padding-top: 80px;
+    padding-bottom: 80px;
     display: table-cell;
     /* vertical-align: middle; */
     width: 100%;
@@ -958,6 +970,10 @@ ul.social-link li a{
 .error-text{
     text-align: center;
 }
+.error-text h1{
+    font-weight: 400;
+}
+
 .error-text i {
     font-size: 90px;
     margin-bottom: 30px;
