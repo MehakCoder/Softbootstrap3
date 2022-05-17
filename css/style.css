@@ -161,39 +161,37 @@ a.btn {
 .Menubar li a:hover {
     color: #F28123;
 }
-ul.sub-menu{
+.Menubar ul ul.sub-menu{
     position: absolute;
-  background-color: #fff;
-  width: 220px;
-  padding: 15px 15px;
-  margin: 0;
-  left: 0;
-  top: 50px;
-  border-radius: 3px;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-box-shadow: 0 0 20px #555555;
-  box-shadow: 0 0 20px #555555;
+    background-color: #fff;
+    width: 220px;
+    padding: 15px 15px;
+    margin: 0;
+    left: 0;
+    top: 50px;
+    border-radius: 3px;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 0 20px #555555;
 }
-.Menubar ul li.current-list-item > a {
+}
+.Menubar li.current-list-item > a {
     color: #F28123;
   }
-ul.sub-menu li {
+
+  .Menubar ul ul.sub-menu.sub-menu li {
     display: block;
     text-align: left;
 }
-ul.sub-menu li a {
+.Menubar ul ul.sub-menu.sub-menu li a {
     color: #555;
     font-weight: 600;
     padding: 8px;
-    display: block;
     font-size: 13px;
   }
-
-.Menubar > li:hover ul {
+ 
+  .Menubar li:hover .sub-menu  {
     opacity: 1;
     visibility: visible;
 }
