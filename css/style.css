@@ -945,3 +945,20 @@ ul.social-link li a{
 /* About : the end */
 
 /* 404 */
+.Error-slider{
+    height: 100%;
+    display: table;
+    width: 100%;
+}
+.Error{
+    display: table-cell;
+    /* vertical-align: middle; */
+    width: 100%;
+}
+.error-text{
+    text-align: center;
+}
+.error-text i {
+    font-size: 90px;
+    margin-bottom: 30px;
+}
