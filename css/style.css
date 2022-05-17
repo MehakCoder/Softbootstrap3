@@ -161,7 +161,7 @@ a.btn {
 .Menubar li a:hover {
     color: #F28123;
 }
-.Menubar ul ul.sub-menu{
+.Menubar .sub-menu{
     position: absolute;
     background-color: #fff;
     width: 220px;
@@ -184,7 +184,7 @@ a.btn {
     display: block;
     text-align: left;
 }
-.Menubar ul ul.sub-menu.sub-menu li a {
+.Menubar ul ul.sub-menu.sub-menu  {
     color: #555;
     font-weight: 600;
     padding: 8px;
