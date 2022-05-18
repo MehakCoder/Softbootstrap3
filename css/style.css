@@ -695,7 +695,7 @@ a.read-more-btn:hover {
 
 .logo {
     width: 100%;
-    display: block;
+    display: inline-flex;
     margin-right: 30px;
     transform-style: preserve-3d;
 }
