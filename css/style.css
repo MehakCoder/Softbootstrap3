@@ -157,44 +157,46 @@ a.btn {
     font-weight: 700;
     padding: 15px;
 }
-
-.Menubar li a:hover {
+  .Menubar li:hover > a {
     color: #F28123;
-}
-.Menubar .sub-menu{
-    position: absolute;
-    background-color: #fff;
-    width: 220px;
-    padding: 15px 15px;
-    margin: 0;
-    left: 0;
-    top: 50px;
-    border-radius: 3px;
-    transition: 0.3s;
-    opacity: 0;
-    visibility: hidden;
-    box-shadow: 0 0 20px #555555;
-}
+  }
+  
+.Menubar ul > li{
+    display: block;
 }
 .Menubar li.current-list-item > a {
     color: #F28123;
   }
-
-  .Menubar ul ul.sub-menu.sub-menu li {
-    display: block;
-    text-align: left;
-}
-.Menubar ul ul.sub-menu.sub-menu  {
-    color: #555;
-    font-weight: 600;
-    padding: 8px;
-    font-size: 13px;
+ .Menubar li .sub-menu {
+     position: absolute;
+     background-color: #fff;
+     width: 220px;
+     padding: 15px 15px;
+     margin: 0;
+     left: 0;
+     top: 50px;
+     border-radius: 3px;
+     transition: 0.3s;
+     opacity: 0;
+     visibility: hidden;
+     box-shadow: 0 0 20px #555555;
+ } 
+ .Menubar li .sub-menu li{
+     text-align: left;
+ }
+ .Menubar li .sub-menu li a{
+     color: #555;
+     padding: 8px;
+     font-size: 13px;
+     font-weight: 600;
+ }
+ .Menubar > li:hover ul {
+    color: #F28123;
   }
- 
-  .Menubar li:hover .sub-menu  {
+  .Menubar > li:hover ul {
     opacity: 1;
     visibility: visible;
-}
+  }
 #icon {
     margin-left: 50%;
     font-weight: 700;
