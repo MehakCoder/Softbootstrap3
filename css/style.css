@@ -191,12 +191,11 @@ a.btn {
      font-size: 13px;
      font-weight: 600;
  }
- .Menubar > li:hover ul {
-    color: #F28123;
-  }
+ .Menubar li .sub-menu li a:hover{
+     color: #F28123;
+ }
   .Menubar > li:hover ul.sub-menu {
       display: block;
-      color: #F28123;
   }
 #icon {
     margin-left: 50%;
@@ -965,7 +964,7 @@ ul.social-link li a{
     padding-top: 80px;
     padding-bottom: 80px;
     display: table-cell;
-    /* vertical-align: middle; */
+    vertical-align: middle;
     width: 100%;
 }
 .error-text{
