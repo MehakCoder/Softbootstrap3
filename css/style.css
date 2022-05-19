@@ -1032,6 +1032,11 @@ input[type="number"]{
     padding: 10px;
     width: 100px;
 }
+.total-section table.total-table{
+    border: 1px solid #efefef;
+    width: 100%;
+}
+
 
 
 
