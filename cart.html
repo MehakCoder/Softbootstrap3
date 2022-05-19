@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404</title>
+    <title>Cart</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Poppins:ital,wght@0,200;0,300;0,700;1,400&display=swap"
         rel="stylesheet">
@@ -76,8 +76,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div id="breadcrumb-text">
-                            <p>Fresh adn Organic</p>
-                            <h1>404 - Not Found</h1>
+                            <p>Fresh and Organic</p>
+                            <h1>Cart</h1>
                         </div>
                     </div>
                 </div>
@@ -85,24 +85,69 @@
         </div>
     </section>
     <!--Breadcrumb : the end -->
-    <!-- Error -->
-    <section class="Error slider">
-        <div class="Error">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="error-text">
-                            <i class="fa fa-frown-o"></i>
-                            <h1>Oops! Not Found.</h1>
-                            <p>The page you requested for is not found.</p>
-                            <a href="" class="btn">Back to Home</a>
-                        </div>
-                    </div>
-                </div>
+    <!-- cart -->
+    <section class="cart-section">
+        <div class="container">
+            <div class="row">
+               <div class="col-lg-8 col-md-12">
+                   <div class="cart-table-wrap">
+                       <table class="cart-table">
+                           <thead class="cart-table-head">
+                             <tr class="table-head-row">
+                                    <th class="product-remove"></th>
+									<th class="product-image">Product Image</th>
+									<th class="product-name">Name</th>
+									<th class="product-price">Price</th>
+									<th class="product-quantity">Quantity</th>
+									<th class="product-total">Total</th>
+                             </tr>
+                           </thead>
+                           <tbody>
+                               <tr class="table-body-row">
+                                   <td class="product-remove"><a href="#"><i class="fa fa-window-close-o"></i></a></td>
+                                   <td class="product-image"><img src="image/product-img-1.jpg" alt=""></td>
+                                   <td class="product-name">Strawberry</td>
+                                   <td class="product-price">$85</td>
+                                   <td class="product-quantity"><input type="number" placeholder="0"></td>
+                                   <td class="product-total">1</td>
+                               </tr>
+                           </tbody>
+                           <tbody>
+                            <tr class="table-body-row">
+                                <td class="product-remove"><a href="#"><i class="fa fa-window-close-o"></i></a></td>
+                                <td class="product-image"><img src="image/product-img-2.jpg" alt=""></td>
+                                <td class="product-name">Berry</td>
+                                <td class="product-price">$70</td>
+                                <td class="product-quantity"><input type="number" placeholder="0"></td>
+                                <td class="product-total">1</td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr class="table-body-row">
+                                <td class="product-remove"><a href="#"><i class="fa fa-window-close-o"></i></a></td>
+                                <td class="product-image"><img src="image/product-img-3.jpg" alt=""></td>
+                                <td class="product-name">Lemon</td>
+                                <td class="product-price">$35</td>
+                                <td class="product-quantity"><input type="number" placeholder="0"></td>
+                                <td class="product-total">1</td>
+                            </tr>
+                        </tbody>
+                       </table>
+                   </div>
+               </div>
+               <div class="col-lg-4">
+                <div class="total-section">
+                    <table class="total-table">
+                        <thead class="total-table-head">
+                          <tr class="table-total-row">
+                                 <th>Total</th>
+                                 <th>Price</th>
+                          </tr>
+                        </thead>
+                        <tbody>
             </div>
         </div>
     </section>
-
     <!-- logo-slider -->
     <section class="logo-slider">
         <div class="container section">

@@ -191,6 +191,9 @@ a.btn {
      font-size: 13px;
      font-weight: 600;
  }
+ .Menubar li .sub-menu li a{
+     text-align: left;
+ }
  .Menubar li .sub-menu li a:hover{
      color: #F28123;
  }
