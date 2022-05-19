@@ -825,7 +825,7 @@ h2.widget:after {
 }
 /* social-icons:the end */
 
-
+/* main page- 2 */
 /* ABout us :New page */
 .Top-header{
    opacity: 0.8;
@@ -955,7 +955,8 @@ ul.social-link li a{
     margin: 5px;
 }
 /* About : the end */
-
+/* ..................................................................................................................... */
+/* sub-page:start */
 /* 404 */
 .Error-slider{
     height: 100%;
@@ -981,3 +982,56 @@ ul.social-link li a{
     font-size: 90px;
     margin-bottom: 30px;
 }
+/* 404 :the end */
+/* ....................................................................................................... */
+/* Sub page -3 */
+/* Cart */
+.cart-section{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+table{
+    border-collapse: collapse;
+}
+table.cart-table{
+    border: 1px solid black;
+}
+thead{
+    border: 1px solid #eee;
+}
+.cart-table-head tr{
+    background-color: #efefef;
+}
+tr.table-head-row th{
+    border-right: 1px solid #efefef;
+    padding: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+.cart-table-wrap tbody tr td {
+    border: 1px solid #efefef;
+    padding: 20px 0;
+    color: #051922;
+}
+.cart-table-wrap tbody tr td {
+    text-align: center;
+}
+td.product-remove a{
+    color: #051922;
+}
+td.product-image img {
+max-width: 50px;
+box-shadow: none;
+}
+td.product-quantity input{
+    margin-bottom: 0;
+}
+input[type="number"]{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+}
+
+
+
