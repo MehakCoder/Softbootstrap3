@@ -1084,6 +1084,44 @@ input:hover{
      color: #F28123;
 }
 
-
-
+/* cart : the end */
+/* ................................................................................................................... */
+/* checkout */
+.checkout-section{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.card{
+    margin-bottom: 15px;
+}
+.card .card-header{
+    background-color: #fff;
+    border: none;
+    padding: 0;
+}
+.card .card-header h5 button{
+    color: #051922;
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    text-decoration: none;
+    border: none;
+    background-color: #EFEFEF;
+    position: relative;
+    padding-left: 50px;
+    font-weight: 600;
+}
+.card .card-header h5 button::before{
+ position: absolute;
+ left: 20px;
+ top: 50%;
+ content: "\f058";
+ font-family: 'FontAwesome';
+ font-weight: 900;
+ line-height: 22px;
+ margin-top: -11px;
+ color: #F28123;
+}
 
