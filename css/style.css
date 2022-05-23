@@ -1162,3 +1162,32 @@ table.order-details tbody td{
 .order-details-wrap > a{
     margin-top: 30px;
 }
+/* checkout : the end */
+/* ...................................................................................................................... */
+/* contact  */
+.contact{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.blue-bg{
+    background-color: #162133;
+}
+.find-location p{
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+    font-weight: 600;
+    padding: 95px 0;
+}
+.find-location p i {
+    margin-right: 10px;
+    color: #F28123;
+}
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+/* contact : the end */
