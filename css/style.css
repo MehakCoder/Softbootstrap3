@@ -1124,4 +1124,41 @@ input:hover{
  margin-top: -11px;
  color: #F28123;
 }
-
+.billing-address-form {
+    padding: 20px;
+}
+.billing-address-form form p input{
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.billing-address-form form p input:hover{
+    background-color: #fff;
+}
+.billing-address-form form p textarea {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    height: 120px;
+    resize: none;
+    font-size: 14px;
+}
+table.order-details{
+    border: 1px solid #efefef;
+}
+table.order-details thead tr th{
+    background-color: #efefef;
+    padding: 18px;
+    font-size: 15px;
+    font-weight: 500;
+}
+table.order-details tbody td{
+    border: 1px solid #efefef;
+    padding: 15px;
+}
+.order-details-wrap > a{
+    margin-top: 30px;
+}
