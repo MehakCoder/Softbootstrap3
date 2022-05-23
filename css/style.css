@@ -36,6 +36,9 @@ h3 {
     font-weight: 700;
     line-height: 2.25rem;
 }
+textarea{
+    overflow: hidden;
+}
 
 p {
     font-family: "Open Sans", sans-serif;
@@ -1168,6 +1171,66 @@ table.order-details tbody td{
 .contact{
     margin-top: 150px;
     margin-bottom: 150px;
+}
+.form-title{
+    margin-bottom: 25px;
+}
+.form-title h2{
+    font-size: 25px;
+}
+.form-title p {
+    font-size: 15px;
+    line-height: 1.8;
+}
+.contact-form p input{
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 45%;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.contact-form p input:hover{
+    background-color: #fff;
+}
+.contact-form p textarea {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    height: 120px;
+    resize: none;
+    font-size: 14px;
+}
+.contact-form button{
+    font-weight: 700;
+    border-radius: 50px;
+    color: #000;
+}
+.contact-form-wrap {
+    background-color: #FBFBFB;
+    padding: 45px 30px;
+    border-radius: 5px;
+}
+.contact-form-box {
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+.contact-form-box h4 {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 10px;
+}
+.contact-form-box p {
+    line-height: 1.8;
+    opacity: 0.8;
+    font-size: 14px;
+}
+.contact-form-box h4 i {
+    position: absolute;
+    left: -13%;
+    color: #F28123;
+    top: 2px;
 }
 .blue-bg{
     background-color: #162133;
