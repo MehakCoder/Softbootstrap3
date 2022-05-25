@@ -1374,6 +1374,8 @@ span.comment-date {
     margin-left: 10px;
     border-bottom: 1px solid #aaa;
 }
+
+
 .comment-user-avater img {
     width: 60px;
     max-width: 60px;
@@ -1392,4 +1394,95 @@ span.comment-date {
     line-height: 2;
     margin: 0;
 }
+.single-comment-body.child {
+    margin-left: 75px;
+}
+.comment-template h4 {
+    margin-bottom: 10px;
+}
+.comment-template > p {
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+.comment-template form p input[type=text] {
+    border: 1px solid #ddd;
+    width: 49%;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #051922;
+}
+.comment-template form p input[type=email] {
+    border: 1px solid #ddd;
+    width: 49%;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #051922;
+    margin-left: 10px;
+}
+.sidebar-section {
+    margin-left: 30px;
+}
+.sidebar-section > div {
+    margin-bottom: 60px;
+}
+.sidebar-section h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.comment-template form p textarea {
+    border: 1px solid #ddd;
+    padding: 15px;
+    font-size: 15px;
+    color: #051922;
+    border-radius: 5px;
+    height: 250px;
+    resize: none;
+    width: 100%;
+}
+.sidebar-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.recent-posts ul li, .archive-posts ul li {
+    position: relative;
+    padding-left: 17px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+.sidebar-section ul li {
+    line-height: 1.5;
+}
+.sidebar-section ul li a{
+    text-decoration: none;
+    color: #051922;
+    font-size: 15px;
+}
+.recent-posts ul li:before, .archive-posts ul li:before {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    content: "\f105";
+    font-family: 'FontAwesome';;
+    font-weight: 900;
+}
+.tag-section ul li {
+    display: inline-block;
+}
+.tag-section ul li a {
+    background-color: #ddd;
+    padding: 3px 10px;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+  font-size: 15px;
+}
+.tag-section ul li a:hover{
+    opacity: 0.8;
+}
+
 /* single-news : the end */
