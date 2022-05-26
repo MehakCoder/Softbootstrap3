@@ -1567,6 +1567,19 @@ ul.product-share li a {
 }
 /* single-product : the end */
 /* home slider */
+.homepage-slider div{
+    height: 100%;
+}
+.single-homepage-slider{
+  background: cover;
+  background-position: center;
+  background-color: #020C0E;
+  position: relative;
+  z-index: 1;  
+}
+.single-homepage-1{
+background-image: url(../image/background.jpg);
+}
 
 /* home slider : the end */
 
