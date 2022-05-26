@@ -1569,8 +1569,8 @@ ul.product-share li a {
 /* home slider */
 .homepage-slider {
     height: 100%;
+    position: relative;
   }
-  
   .homepage-slider div {
     height: 100%;
   }
@@ -1616,11 +1616,6 @@ ul.product-share li a {
     color: #F28123;
     font-size: 48px;
   }
-  
-  .homepage-slider {
-    position: relative;
-  }
-  
   .homepage-bg-1{
 background-image: url(../image/background.jpg);
 }
