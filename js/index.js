@@ -108,4 +108,4 @@ $(".product-filters .strawberry").on('click', function () {
         $(".hero-text-tablecell .subtitle").addClass("animated fadeInUp").css({'opacity': '0'});
         $(".hero-text-tablecell h1").addClass("animated fadeInUp").css({'opacity': '0', 'animation-delay' : '0.3s'});
         $(".hero-btns").addClass("animated fadeInUp").css({'opacity': '0', 'animation-delay' : '0.5s'});
-  });
+    });
