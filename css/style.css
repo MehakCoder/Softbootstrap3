@@ -699,16 +699,16 @@ a.read-more-btn:hover {
     padding: 50px 0;
 }
 
-.logo-carousel-inner {
-    display: block;
+.logo {
+    width: 100%;
+    display: inline-flex;
     margin-right: 30px;
     transform-style: preserve-3d;
 }
 
-client-logo-item:hover {
+.client-logo:hover {
     opacity: 0.8;
 }
-
 /* logo:the end */
 .Footer {
     background-color: #051922;
