@@ -698,11 +698,9 @@ a.read-more-btn:hover {
     background-color: #f5f5f5;
     padding: 50px 0;
 }
-
 .logo-carousel-inner {
     margin-right: 30px;
 }
-
 .item:hover {
     opacity: 0.9;
 }
