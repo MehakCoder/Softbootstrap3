@@ -455,7 +455,46 @@ p.price span {
 }
 
 /* counter-time the end */
-.testimonail {
+.client-avater {
+    margin-bottom: 20px;
+  }
+  
+  .client-meta h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .client-meta h3 span {
+    display: block;
+    font-size: 70%;
+    margin-top: 10px;
+    color: #051922;
+    font-weight: 600;
+    opacity: 0.5;
+  }
+  
+  p.testimonial-body {
+    font-size: 17px;
+    font-style: italic;
+    width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: #999999;
+    margin-top: 20px;
+  }
+  
+  .last-icon {
+    margin-top: 20px;
+    font-size: 25px;
+    opacity: 0.3;
+  }
+  
+  .client-avater img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+/* .testimonail {
     margin-top: 150px;
     margin-bottom: 150px;
 }
@@ -499,7 +538,7 @@ p.price span {
     margin-top: 20px;
     font-size: 25px;
     color: #999999;
-}
+} */
 
 /* Testimonail : the end */
 .advert {
