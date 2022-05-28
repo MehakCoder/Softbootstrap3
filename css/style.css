@@ -455,6 +455,11 @@ p.price span {
 }
 
 /* counter-time the end */
+/* testimonail :start */
+testimonail{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
 .client-avater {
     margin-bottom: 20px;
   }
@@ -494,55 +499,13 @@ p.price span {
     border-radius: 50%;
     margin: 0 auto;
   }
-/* .testimonail {
-    margin-top: 150px;
-    margin-bottom: 150px;
-}
+/* 
 
-.testimonail .review {
-    width: 920px;
-    text-align: center;
-    margin-left: 135px;
-}
-
-.testimonail .client-Image img {
-    border-radius: 50%;
-    width: 90px;
-}
-
-.testimonail .client h3 {
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 1.8;
-}
-
-.testimonail .client strong {
-    display: block;
-    font-size: 70%;
-    margin-top: 10px;
-    color: #051922;
-    font-weight: 600;
-    opacity: 0.5;
-}
-
-.testimonail .client p {
-    font-size: 17px;
-    font-style: italic;
-    width: 700px;
-    margin: 0 auto;
-    color: #999999;
-}
-
-.testimonail .quto-icon {
-    margin-top: 20px;
-    font-size: 25px;
-    color: #999999;
-} */
-
-/* Testimonail : the end */
+/* tstimonal: the end /
+/* vedio bg : the end */
 .advert {
     margin-bottom: 150px;
+    margin-top: 150px;
 }
 
 .abt-bg {
@@ -598,7 +561,6 @@ p.price span {
     font-size: 15px;
     line-height: 1.6;
 }
-
 /* ADVERT :THE END */
 .shop-banner {
     position: relative;

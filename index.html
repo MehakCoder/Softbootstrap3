@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>softbootstrap</title>
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Poppins:ital,wght@0,200;0,300;0,700;1,400&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/style.css">
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Poppins:ital,wght@0,200;0,300;0,700;1,400&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
 </head>
 
 <body>
@@ -238,31 +240,59 @@
     </section>
     <!-- cart : the end -->
     <!-- testimonail -->
-    <section class="testimonail">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10">
-                    <div class="review">
-                        <div class="client-Image">
-                            <img src="image/avatar2.png" alt="">
+    <!-- testimonail -->
+    <div class="testimonail-section mt-150 mb-150">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1 text-center">
+					<div class="testimonial-sliders owl-carousel">
+						<div class="single-testimonial-slider">
+							<div class="client-avater">
+								<img src="image/avatar1.png" alt="">
+							</div>
+							<div class="client-meta">
+								<h3>Saira Hakim <span>Local shop owner</span></h3>
+								<p class="testimonial-body">
+									" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+								</p>
+								<div class="last-icon">
+									<i class="fa fa-quote-right"></i>
+								</div>
+							</div>
                         </div>
-                        <div class="client">
-                            <h3>David Niph
-                                <br>
-                                <strong>Local shop owner</strong>
-                            </h3>
-                            <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab veritatis praesentium,
-                                laboriosam maiores esse aperiam quis at doloremque numquam vero aliquam expedita,
-                                tenetur beatae eos dolores saepe! Error, sint ipsa!"</p>
-                        </div>
-                        <div class="quto-icon">
-                            <i class="fa fa-quote-right"></i>
-                        </div>
+                        <div class="single-testimonial-slider">
+							<div class="client-avater">
+								<img src="image/avatar2.png" alt="">
+							</div>
+							<div class="client-meta">
+								<h3>David Niph <span>Local shop owner</span></h3>
+								<p class="testimonial-body">
+									" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+								</p>
+								<div class="last-icon">
+									<i class="fa fa-quote-right"></i>
+								</div>
+							</div>
+						</div>
+						<div class="single-testimonial-slider">
+							<div class="client-avater">
+								<img src="image/avatar3.png" alt="">
+							</div>
+							<div class="client-meta">
+								<h3>Jacob Sikim <span>Local shop owner</span></h3>
+								<p class="testimonial-body">
+									" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+								</p>
+								<div class="last-icon">
+									<i class="fa fa-quote-right"></i>
+								</div>
+							</div>
+						</div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>                    
     <!-- Testimonial : the end -->
     <!-- advert -->
     <section class="advert">
@@ -478,10 +508,51 @@
             </div>
         </div>
     </section>
-    <script src="js/index.js"></script>
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="css/bootstrap.js"></script>
-    <script src="js/jquery.isotope-3.0.6.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        $('.logo-carousel-inner').owlCarousel({
+            items: 4,
+            loop: true,
+            autoplay: true,
+            margin: 30,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                600: {
+                    items: 3,
+                    nav: false
+                },
+                1000: {
+                    items: 4,
+                    nav: false,
+                    loop: true
+                }
+            }
+        })
+     $(".testimonial-sliders").owlCarousel({
+            items: 1,
+            loop: true,
+            autoplay: true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:false
+                },
+                600:{
+                    items:1,
+                    nav:false
+                },
+                1000:{
+                    items:1,
+                    nav:false,
+                    loop:true
+                }
+            }
+        });
+    </script>
 </body>
 
 </html>

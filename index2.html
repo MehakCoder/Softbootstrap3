@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 </head>
-</head>
 
 <body>
     <section class="Top-header">
@@ -243,73 +242,27 @@
     <!-- cart : the end -->
     <!-- testimonail -->
     <div class="testimonail-section mt-150 mb-150">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1 text-center">
-                    <div class="testimonial-sliders">
-                        <div class="single-testimonial-slider">
-                            <div class="client-avater">
-                                <img src="image/avatar1.png" alt="">
-                            </div>
-                            <div class="client-meta">
-                                <h3>Saira Hakim <span>Local shop owner</span></h3>
-                                <p class="testimonial-body">
-                                    " Sed ut perspiciatis unde omnis iste natus error veritatis et quasi architecto
-                                    beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis
-                                    iste natus error sit voluptatem accusantium "
-                                </p>
-                                <div class="last-icon">
-                                    <i class="fa fa-quote-right"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-testimonial-slider">
-                            <div class="client-avater">
-                                <img src="image/avatar2.png" alt="">
-                            </div>
-                            <div class="client-meta">
-                                <h3>David Niph <span>Local shop owner</span></h3>
-                                <p class="testimonial-body">
-                                    " Sed ut perspiciatis unde omnis iste natus error veritatis et quasi architecto
-                                    beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis
-                                    iste natus error sit voluptatem accusantium "
-                                </p>
-                                <div class="last-icon">
-                                    <i class="fa fa-quote-right"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-testimonial-slider">
-                            <div class="client-avater">
-                                <img src="image/avatar3.png" alt="">
-                            </div>
-                            <div class="client-meta">
-                                <h3>Jacob Sikim <span>Local shop owner</span></h3>
-                                <p class="testimonial-body">
-                                    " Sed ut perspiciatis unde omnis iste natus error veritatis et quasi architecto
-                                    beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis
-                                    iste natus error sit voluptatem accusantium "
-                                </p>
-                                <div class="last-icon">
-                                    <i class="fa fa-quote-right"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--end  -->
-<!-- testimonail:start -->
-    <section class="testimonail">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10">
-                   <div class="testimonial-sliders">
-                      <div class="single-testimonial-slider">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1 text-center">
+					<div class="testimonial-sliders owl-carousel">
+						<div class="single-testimonial-slider">
 							<div class="client-avater">
 								<img src="image/avatar1.png" alt="">
+							</div>
+							<div class="client-meta">
+								<h3>Saira Hakim <span>Local shop owner</span></h3>
+								<p class="testimonial-body">
+									" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+								</p>
+								<div class="last-icon">
+									<i class="fa fa-quote-right"></i>
+								</div>
+							</div>
+                        </div>
+                        <div class="single-testimonial-slider">
+							<div class="client-avater">
+								<img src="image/avatar2.png" alt="">
 							</div>
 							<div class="client-meta">
 								<h3>David Niph <span>Local shop owner</span></h3>
@@ -323,20 +276,6 @@
 						</div>
 						<div class="single-testimonial-slider">
 							<div class="client-avater">
-								<img src="image/avatar2.png" alt="">
-							</div>
-							<div class="client-meta">
-								<h3>Jacob Sikim <span>Local shop owner</span></h3>
-								<p class="testimonial-body">
-									" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
-								</p>
-								<div class="last-icon">
-									<i class="fa fa-quote-right"></i>
-								</div>
-							</div>
-						</div> 
-                        <div class="single-testimonial-slider">
-							<div class="client-avater">
 								<img src="image/avatar3.png" alt="">
 							</div>
 							<div class="client-meta">
@@ -348,13 +287,12 @@
 									<i class="fa fa-quote-right"></i>
 								</div>
 							</div>
-						</div> 
+						</div>
                     </div>
                 </div>
             </div>
         </div>
-    </section> 
-    <!-- Testimonial : the end -->
+    </div>                    
     <!-- advert -->
     <section class="advert">
         <div class="container">
@@ -592,26 +530,26 @@
                 }
             }
         })
-        // $(".testimonial-sliders").owlCarousel({
-        //     items: 1,
-        //     loop: true,
-        //     autoplay: true,
-        //     responsive:{
-        //         0:{
-        //             items:1,
-        //             nav:false
-        //         },
-        //         600:{
-        //             items:1,
-        //             nav:false
-        //         },
-        //         1000:{
-        //             items:1,
-        //             nav:false,
-        //             loop:true
-        //         }
-        //     }
-        // });
+     $(".testimonial-sliders").owlCarousel({
+            items: 1,
+            loop: true,
+            autoplay: true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:false
+                },
+                600:{
+                    items:1,
+                    nav:false
+                },
+                1000:{
+                    items:1,
+                    nav:false,
+                    loop:true
+                }
+            }
+        });
     </script>
 </body>
 
