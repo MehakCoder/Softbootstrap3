@@ -106,6 +106,7 @@
                     <div class="single-product-item">  
                     <div class="Product-image">
                         <a href="single-product.html"><img src="image/product-img-1.jpg" alt=""></a>
+                    </div>    
                         <h3>Strawberry</h3>
                         <p class="price">
                             <Span>Per Kg</Span>
@@ -115,7 +116,7 @@
                             <i class="fa fa-shopping-cart"></i>
                             Add to Cart
                         </a>
-                    </div>
+                    
                    </div> 
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -355,6 +356,18 @@
                     loop: true
                 }
             }
+        });
+        $(".product-filters li").on('click', function () {
+            
+            $(".product-filters li").removeClass("active");
+            $(this).addClass("active");
+
+            var selector = $(this).attr('data-filter');
+
+            $(".product-lists").isotope({
+                filter: selector,
+            });
+            
         });
     </script>
 </body>
