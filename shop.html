@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
     <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Poppins:ital,wght@0,200;0,300;0,700;1,400&display=swap"
-    rel="stylesheet">
-<link rel="stylesheet" href="css/bootstrap.css">
-<link rel="stylesheet" href="css/font-awesome.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/owl.carousel.css">
-<link rel="stylesheet" href="css/owl.theme.default.min.css">
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Poppins:ital,wght@0,200;0,300;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 </head>
 
 <body>
@@ -86,7 +86,7 @@
         </div>
     </section>
     <!-- Breadcrumb : the end -->
-    <!-- lastest news -->
+    <!-- Product -->
     <div class="product">
         <div class="container">
             <div class="row">
@@ -98,39 +98,44 @@
                             <li data-filter=".berry">Berry</li>
                             <li data-filter=".lemon">Lemon</li>
                         </ul>
-                    </div>  
+                    </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row product-lists">
                 <div class="col-lg-4 col-md-6">
+                    <div class="single-product-item">  
                     <div class="Product-image">
-                        <a href="image"><img src="image/product-img-1.jpg" alt=""></a>
+                        <a href="single-product.html"><img src="image/product-img-1.jpg" alt=""></a>
                         <h3>Strawberry</h3>
                         <p class="price">
                             <Span>Per Kg</Span>
                             85$
                         </p>
-                        <a href="" class="btn">
+                        <a href="cart.html" class="btn">
                             <i class="fa fa-shopping-cart"></i>
                             Add to Cart
                         </a>
                     </div>
+                   </div> 
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="Product-image">
-                        <a href="image"><img src="image/product-img-2.jpg" alt=""></a>
-                        <h3>Berry</h3>
-                        <p class="price">
-                            <Span>Per Kg</Span>
-                            70$
-                        </p>
-                        <a href="" class="btn">
-                            <i class="fa fa-shopping-cart"></i>
-                            Add to Cart
-                        </a>
+                    <div class="single-product-item">
+                        <div class="Product-image">
+                            <a href="single-product.html"><img src="image/product-img-2.jpg" alt=""></a>
+                            <h3>Berry</h3>
+                            <p class="price">
+                                <Span>Per Kg</Span>
+                                70$
+                            </p>
+                            <a href="" class="btn">
+                                <i class="fa fa-shopping-cart"></i>
+                                Add to Cart
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
+                    <div class="single-product-item">
                     <div class="Product-image">
                         <a href="image"><img src="image/product-img-3.jpg" alt=""></a>
                         <h3>Lemon</h3>
@@ -143,40 +148,47 @@
                             Add to Cart
                         </a>
                     </div>
+                </div>  
                 </div>
 
                 <div class="col-lg-4 col-md-6">
+                    <div class="single-product-item">
                     <div class="Product-image">
                         <a href="image"><img src="image/product-img-4.jpg" alt=""></a>
                         <h3>Avocado</h3>
-						<p class="product-price"><span>Per Kg</span> 50$ </p>
+                        <p class="product-price"><span>Per Kg</span> 50$ </p>
                         <a href="" class="btn">
                             <i class="fa fa-shopping-cart"></i>
                             Add to Cart
                         </a>
                     </div>
+                   </div> 
                 </div>
                 <div class="col-lg-4 col-md-6">
+                    <div class="single-product-item">
                     <div class="Product-image">
                         <a href="image"><img src="image/product-img-5.jpg" alt=""></a>
                         <h3>Green Apple</h3>
-						<p class="product-price"><span>Per Kg</span> 45$ </p>
+                        <p class="product-price"><span>Per Kg</span> 45$ </p>
                         <a href="" class="btn">
                             <i class="fa fa-shopping-cart"></i>
                             Add to Cart
                         </a>
                     </div>
+                </div> 
                 </div>
                 <div class="col-lg-4 col-md-6">
+                    <div class="single-product-item">
                     <div class="Product-image">
                         <a href="image"><img src="image/product-img-6.jpg" alt=""></a>
                         <h3>Strawberry</h3>
-						<p class="product-price"><span>Per Kg</span> 80$ </p>
+                        <p class="product-price"><span>Per Kg</span> 80$ </p>
                         <a href="" class="btn">
                             <i class="fa fa-shopping-cart"></i>
                             Add to Cart
                         </a>
                     </div>
+                  </div>  
                 </div>
             </div>
             <div class="row">
@@ -198,7 +210,7 @@
             </div>
         </div>
     </div>
-    <!-- lastest news : the end -->
+    <!-- end-product : the end -->
     <!-- logo-slider -->
     <div class="logo-carousel-section">
         <div class="container">
@@ -323,23 +335,23 @@
                 }
             }
         })
-     $(".testimonial-sliders").owlCarousel({
+        $(".testimonial-sliders").owlCarousel({
             items: 1,
             loop: true,
             autoplay: true,
-            responsive:{
-                0:{
-                    items:1,
-                    nav:false
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
                 },
-                600:{
-                    items:1,
-                    nav:false
+                600: {
+                    items: 1,
+                    nav: false
                 },
-                1000:{
-                    items:1,
-                    nav:false,
-                    loop:true
+                1000: {
+                    items: 1,
+                    nav: false,
+                    loop: true
                 }
             }
         });
