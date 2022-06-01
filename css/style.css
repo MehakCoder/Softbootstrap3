@@ -1763,11 +1763,6 @@ background-image: url(../image/background.jpg);
     border-radius: 25px;
   }
   
-  .product-filters ul li.active {
-    border: 2px solid #F28123;
-    background-color: #F28123;
-    color: #fff;
-  }
   .single-product-img img {
     border-radius: 5px;
     box-shadow: 0 0 20px #ddd;
