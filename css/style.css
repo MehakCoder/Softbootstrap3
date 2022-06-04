@@ -1951,12 +1951,9 @@ ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-lin
     left: 0;
     top: 50px;
     border-radius: 3px;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
     transition: 0.3s;
     opacity: 0;
     visibility: hidden;
-    -webkit-box-shadow: 0 0 20px #555555;
     box-shadow: 0 0 20px #555555;
   }
   
