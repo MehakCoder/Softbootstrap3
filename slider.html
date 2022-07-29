@@ -11,9 +11,11 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+   
 </head>
 
 <body>
@@ -37,7 +39,7 @@
 								<li class="current-list-item"><a href="#">Home</a>
 									<ul class="sub-menu">
 										<li><a href="index.html">Static Home</a></li>
-										<li><a href="index_2.html">Slider Home</a></li>
+										<li><a href="slider.html">Slider Home</a></li>
 									</ul>
 								</li>
 								<li><a href="about.html">About</a></li>
@@ -114,7 +116,7 @@
                             <div class="col-sm-12">
                                 <div class="slide-content">
                                     <p class="subtitle">Fresh & Organic</p>
-                                    <h1>Delicious Seasonal Fruits</h1>
+                                    <h1>Delicious Seasonal<br> Fruits</h1>
                                     <button type="button" class="slide-btn">
                                         <a href="shop.html" class="boxed-btn">Fruit Collection</a>
                                     </button>
@@ -130,7 +132,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
-                                <div class="slide-content">
+                                <div class="slide-content text-center">
                                     <p class="subtitle">Fresh Everyday</p>
 								    <h1>100% Organic Collection</h1>
                                     <button type="button" class="slide-btn">
@@ -149,7 +151,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
-                                <div class="slide-content">
+                                <div class="slide-content text-right">
                                     <p class="subtitle">Mega Sale Going On!</p>
 								    <h1>Get December Discount</h1>
                                     <button type="button" class="slide-btn">
@@ -595,6 +597,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/isotope-docs.min.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script>
         $('.logo-carousel-inner').owlCarousel({
             items: 4,
@@ -637,31 +640,6 @@
                 }
             }
         });
-        // $('.Banner-inner').owlCarousel({
-        //     items: 1,
-        //     loop: true,
-        //     autoplay: true,
-        //     nav: true,
-        //     dots: false,
-        //     navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
-        //     responsive:{
-        //         0:{
-        //             items:1,
-        //             nav:false,
-        //             loop:true
-        //         },
-        //         600:{
-        //             items:1,
-        //             nav:true,
-        //             loop:true
-        //         },
-        //         1000:{
-        //             items:1,
-        //             nav:true,
-        //             loop:true
-        //         }
-        //     }
-        // });
         $(".Banner-inner").owlCarousel({
     loop: true,
     margin: 100,
