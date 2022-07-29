@@ -2067,11 +2067,36 @@ ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-lin
   
 /* slider home : the end */
 /* hero slider */
-.hero-bg {
-    background-image: url(../img/hero-bg.jpg);
+.owl-item-slider-1 {
+  background-image: url(../image/background.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  padding-top: 184px;
+  padding-bottom: 192px;
+}
+
+.owl-item-slider-2 {
+  background-image: url(../image/backgrround-2.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  padding-top: 184px;
+  padding-bottom: 192px;
+}
+  .owl-item-slider-3 {
+    background-image: url(../image/background-3.jpg);
+    position: relative;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    z-index: 1;
+    padding-top: 184px;
+    padding-bottom: 192px;
   }
   
   .hero-text {
@@ -2093,19 +2118,7 @@ ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-lin
     height: 100%;
   }
   
-  .hero-area:after {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    content: "";
-    background-color: #07212e;
-    z-index: -1;
-    opacity: 0.6;
-  }
-  
-  .hero-text p.subtitle {
+  .slide-content .subtitle {
     color: #F28123;
     font-weight: 700;
     text-transform: uppercase;
@@ -2113,37 +2126,17 @@ ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-lin
     font-size: 15px;
   }
   
-  .hero-text h1 {
+  .slide-content h1 {
     font-size: 64px;
     font-weight: 700;
     line-height: 1.3;
     color: #fff;
-  }
-  
-  .hero-area div {
-    height: 100%;
-  }
-  
-  .hero-area div.hero-text {
-    height: 100%;
-    width: 100%;
-  }
-  
-  .hero-area div.hero-text-tablecell {
-    height: auto;
-    vertical-align: middle;
-  }
-  
-  .hero-area div.hero-text-tablecell div {
-    height: auto;
-    vertical-align: middle;
-  }
-  
+  } 
   .hero-btns {
     margin-top: 35px;
   }
   
-  .hero-btns a.bordered-btn {
+  .slide-btn a.bordered-btn {
     margin-left: 15px;
   }
   
@@ -2173,51 +2166,7 @@ ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-lin
     padding: 15px 25px;
     border-radius: 3px;
   }
-  
-  .homepage-bg-1 {
-    background-image: url(../image/background.jpg);
-  }
-  
-  .homepage-bg-2 {
-    background-image: url(../image/backgrround-2.jpg);
-  }
-  
-  .homepage-bg-3 {
-    background-image: url(../image/background-3.jpg);
-  }
-  
-  .homepage-slider {
-    height: 100%;
-  }
-  
-  .homepage-slider div {
-    height: 100%;
-  }
-  
-  .homepage-slider div.hero-text {
-    display: table;
-    width: 100%;
-  }
-  
-  .homepage-slider div.hero-text-tablecell {
-    height: auto;
-    vertical-align: middle;
-    display: table-cell;
-  }
-  
-  .homepage-slider div.hero-text-tablecell div {
-    height: auto;
-  }
-  
-  .single-homepage-slider {
-    background-size: cover;
-    background-position: center;
-    background-color: #020C0E;
-    position: relative;
-    z-index: 1;
-  }
-  
-  .single-homepage-slider:after {
+  .owl-item-slider-1:after,.owl-item-slider-2:after,.owl-item-slider-3:after {
     position: absolute;
     left: 0;
     top: 0;
@@ -2228,30 +2177,9 @@ ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-lin
     z-index: -1;
     opacity: 0.7;
   }
-  
-  div.owl-controls, .owl-controls div {
-    height: auto;
-    top: 50%;
-    color: #F28123;
-    font-size: 48px;
+  button:focus{
+    outline: none;
   }
-  
-  .homepage-slider {
-    position: relative;
-  }
-  
-  .owl-prev {
-    position: absolute;
-    left: 60px;
-    margin-top: -30px;
-  }
-  
-  .owl-next {
-    position: absolute;
-    right: 60px;
-    margin-top: -30px;
-  }
-  
   /* /* ----------------------------------------------------------------------------- */
   
 /* hero slider the end */

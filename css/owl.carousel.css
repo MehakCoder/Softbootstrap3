@@ -62,13 +62,27 @@
     -ms-user-select: none;
     user-select: none; }
   .owl-carousel .owl-nav button.owl-prev,
-  .owl-carousel .owl-nav button.owl-next,
   .owl-carousel button.owl-dot {
     background: none;
-    color: inherit;
+    color: #F28123;
     border: none;
     padding: 0 !important;
-    font: inherit; }
+    font: inherit;
+    position: absolute;
+    font-size: 80px;
+    font-weight: bolder;
+    left: 60px;
+    top: 250px; }
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot{
+      position: absolute;
+      background: none;
+      color: #F28123;
+      right: 60px;
+      top: 250px;
+      border: none;
+      font-size: 80px;
+      font-weight: bolder;
+    }
   .owl-carousel.owl-loaded {
     display: block; }
   .owl-carousel.owl-loading {

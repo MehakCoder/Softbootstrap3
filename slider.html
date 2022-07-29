@@ -105,65 +105,68 @@
 	<!-- end search area -->
 
 	<!-- home page slider -->
-	<div class="homepage-slider">
-		<!-- single home slider -->
-		<div class="single-homepage-slider homepage-bg-1">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 col-lg-7 offset-lg-1 offset-xl-0">
-						<div class="hero-text">
-							<div class="hero-text-tablecell">
-								<p class="subtitle">Fresh & Organic</p>
-								<h1>Delicious Seasonal Fruits</h1>
-								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">Fruit Collection</a>
-									<a href="contact.html" class="bordered-btn">Contact Us</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- single home slider -->
-		<div class="single-homepage-slider homepage-bg-2">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-10 offset-lg-1 text-center">
-						<div class="hero-text">
-							<div class="hero-text-tablecell">
-								<p class="subtitle">Fresh Everyday</p>
-								<h1>100% Organic Collection</h1>
-								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">Visit Shop</a>
-									<a href="contact.html" class="bordered-btn">Contact Us</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- single home slider -->
-		<div class="single-homepage-slider homepage-bg-3">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-10 offset-lg-1 text-right">
-						<div class="hero-text">
-							<div class="hero-text-tablecell">
-								<p class="subtitle">Mega Sale Going On!</p>
-								<h1>Get December Discount</h1>
-								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">Visit Shop</a>
-									<a href="contact.html" class="bordered-btn">Contact Us</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <section class="slider-section">
+        <div class="owl-carousel owl-theme owl-loaded" id="single-slider">
+            <div class="Banner-inner">
+                <div class="owl-item-slider-1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="slide-content">
+                                    <p class="subtitle">Fresh & Organic</p>
+                                    <h1>Delicious Seasonal Fruits</h1>
+                                    <button type="button" class="slide-btn">
+                                        <a href="shop.html" class="boxed-btn">Fruit Collection</a>
+                                    </button>
+                                    <button type="button" class="slide-btn">
+                                        <a href="contact.html" class="bordered-btn">Contact Us</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-item-slider-2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="slide-content">
+                                    <p class="subtitle">Fresh Everyday</p>
+								    <h1>100% Organic Collection</h1>
+                                    <button type="button" class="slide-btn">
+                                        <a href="shop.html" class="boxed-btn">Fruit Collection</a>
+                                    </button>
+                                    <button type="button" class="slide-btn">
+                                        <a href="contact.html" class="bordered-btn">Contact Us</a>
+                                    </button>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-item-slider-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="slide-content">
+                                    <p class="subtitle">Mega Sale Going On!</p>
+								    <h1>Get December Discount</h1>
+                                    <button type="button" class="slide-btn">
+                                        <a href="shop.html" class="boxed-btn">Visit Shop</a>
+                                    </button>
+                                    <button type="button" class="slide-btn">
+                                        <a href="contact.html" class="bordered-btn">Contact Us</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
 	<!-- end home page slider -->
     <!-- list -->
     <div class="list">
@@ -634,50 +637,51 @@
                 }
             }
         });
-        $('.homepage-slider').owlCarousel({
-            items: 1,
-            loop: true,
-            autoplay: true,
-            nav: true,
-            dots: false,
-            navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
-            responsive:{
-                0:{
-                    items:1,
-                    nav:false,
-                    loop:true
-                },
-                600:{
-                    items:1,
-                    nav:true,
-                    loop:true
-                },
-                1000:{
-                    items:1,
-                    nav:true,
-                    loop:true
-                }
-            }
-        });
-        $(".homepage-slider").on("load", function(){
-            $(".hero-text-tablecell .subtitle").removeClass("animated fadeInUp").css({'opacity': '0'});
-            $(".hero-text-tablecell h1").removeClass("animated fadeInUp").css({'opacity': '0', 'animation-delay' : '0.3s'});
-            $(".hero-btns").removeClass("animated fadeInUp").css({'opacity': '0', 'animation-delay' : '0.5s'});
-        });
-
-        $(".homepage-slider").on("load", function(){
-            $(".hero-text-tablecell .subtitle").addClass("animated fadeInUp").css({'opacity': '0'});
-            $(".hero-text-tablecell h1").addClass("animated fadeInUp").css({'opacity': '0', 'animation-delay' : '0.3s'});
-            $(".hero-btns").addClass("animated fadeInUp").css({'opacity': '0', 'animation-delay' : '0.5s'});
-        });
-
-        $(".search-bar-icon").on("click", function(){
-            $(".search-area").addClass("search-active");
-        });
-
-        $(".close-btn").on("click", function() {
-            $(".search-area").removeClass("search-active");
-        });
+        // $('.Banner-inner').owlCarousel({
+        //     items: 1,
+        //     loop: true,
+        //     autoplay: true,
+        //     nav: true,
+        //     dots: false,
+        //     navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
+        //     responsive:{
+        //         0:{
+        //             items:1,
+        //             nav:false,
+        //             loop:true
+        //         },
+        //         600:{
+        //             items:1,
+        //             nav:true,
+        //             loop:true
+        //         },
+        //         1000:{
+        //             items:1,
+        //             nav:true,
+        //             loop:true
+        //         }
+        //     }
+        // });
+        $(".Banner-inner").owlCarousel({
+    loop: true,
+    margin: 100,
+    nav: true,
+    navSpeed:2,
+    dots:false,
+    autoplay:false,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 1
+        }
+    }
+});
+        
     </script>
 </body>
 
