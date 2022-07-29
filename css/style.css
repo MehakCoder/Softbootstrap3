@@ -2098,26 +2098,6 @@ ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-lin
     padding-top: 184px;
     padding-bottom: 192px;
   }
-  
-  .hero-text {
-    display: table;
-    height: 100%;
-  }
-  
-  .hero-text-tablecell {
-    display: table-cell;
-  }
-  
-  .hero-area {
-    height: 100%;
-    position: relative;
-    z-index: 1;
-  }
-  
-  html, body {
-    height: 100%;
-  }
-  
   .slide-content .subtitle {
     color: #F28123;
     font-weight: 700;
@@ -2140,7 +2120,7 @@ ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-lin
     margin-left: 15px;
   }
   
-  .hero-area div.hero-form {
+  /* .hero-area div.hero-form {
     background-color: #fff;
     text-align: center;
     width: 380px;
@@ -2165,7 +2145,7 @@ ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-lin
     cursor: pointer;
     padding: 15px 25px;
     border-radius: 3px;
-  }
+  } */
   .owl-item-slider-1:after,.owl-item-slider-2:after,.owl-item-slider-3:after {
     position: absolute;
     left: 0;
@@ -2179,6 +2159,18 @@ ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-lin
   }
   button:focus{
     outline: none;
+  }
+  button{
+    border: none;
+     background: #F28123;
+     border-radius: 50px;
+  }
+  
+    
+   
+    
+
+    
   }
   /* /* ----------------------------------------------------------------------------- */
   
